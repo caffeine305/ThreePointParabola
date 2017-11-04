@@ -84,8 +84,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CreateEnemy.cs" />
+    <Compile Include="Assets\CreateEnemyTargetPair.cs" />
+    <Compile Include="Assets\CreateTarget.cs" />
     <Compile Include="Assets\EnemyMovement.cs" />
     <Compile Include="Assets\MoveAsParabola.cs" />
+    <Compile Include="Assets\RandomMove.cs" />
+    <Compile Include="Assets\onPositionEnemy.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
